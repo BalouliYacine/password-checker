@@ -1,0 +1,71 @@
+.HowITWork {
+  color: #eeeeee;
+  background-color: #393e46;
+  padding: 5% 15%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.HowITWork h2 {
+  color: #00adb5;
+  font-size: 3rem;
+  margin-bottom: 5%;
+}
+.HowITWork ul {
+  position: relative;
+}
+.HowITWork ul::before {
+  content: "";
+  position: absolute;
+  background-color: #eeeeee;
+  left: -10px;
+  top: 0;
+  width: 10px;
+  height: 100%;
+}
+.HowITWork ul li {
+  max-width: 500px;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+  list-style: none;
+  padding-left: 30px;
+}
+.HowITWork ul li p {
+  position: relative;
+}
+.HowITWork ul li p::before {
+  content: "";
+  position: absolute;
+  background-color: #00adb5;
+  left: -40px;
+  top: 0;
+  width: 10px;
+  height: calc(100% + 10px);
+}
+.HowITWork ul li span {
+  color: #00adb5;
+  font-weight: 700;
+}
+.condivforimg {
+  position: relative;
+}
+.HowITWorkImg {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  width: 40%;
+}
+.HowITWorkImg img {
+  background-color: #393e46;
+  width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .HowITWork ul li {
+    max-width: 1000px;
+  }
+  .howLi2 {
+    display: none;
+  }
+}

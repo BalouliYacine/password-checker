@@ -1,0 +1,36 @@
+.Page {
+  background-color: #222831;
+  padding: 5% 15%;
+  display: flex;
+  align-items: center;
+
+  .text {
+    width: 60%;
+    margin-right: 50px;
+
+    h2 {
+      color: #00adb5;
+      font-size: 3rem;
+    }
+    p {
+      color: white;
+    }
+  }
+
+  .img {
+    width: 30%;
+    img {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .text {
+      width: 100%;
+    }
+
+    .img {
+      display: none;
+    }
+  }
+}

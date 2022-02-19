@@ -1,0 +1,41 @@
+// Componentes Styles
+@use "./components/0\ nav/_nav";
+@use "./components/1\ pasword\ check/_pasword";
+@use "./components/2\ header/_header";
+@use "./components/3\ how\ it\ work/_HowItwork";
+@use "./components/4\ page/_page";
+@use "./components/5\ footer/footer";
+
+// Master style
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Changa", sans-serif;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.containerTop {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./components/pexels-mikhail-nilov-6963944.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+}

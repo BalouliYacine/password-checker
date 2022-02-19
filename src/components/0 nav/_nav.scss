@@ -1,0 +1,43 @@
+nav {
+  height: 10vh;
+  padding: 2% 15%;
+  color: #eeeeee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger {
+  display: none;
+}
+.logo {
+  font-weight: bold;
+  color: #007379;
+}
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+}
+.navlinks li {
+  list-style: none;
+  padding: 0 20px;
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+.navlinks li a {
+  color: #eeeeee;
+  text-decoration: none;
+}
+.navlinks li:hover {
+  background-color: #007379;
+}
+@media only screen and (max-width: 650px) {
+  .burger {
+    display: block;
+  }
+  .navlinks {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.3;
+  }
+}
