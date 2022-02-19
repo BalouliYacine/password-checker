@@ -7,6 +7,9 @@
 @use "./components/5\ footer/footer";
 
 // Master style
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0px;
   padding: 0;

@@ -161,7 +161,10 @@ function PaswordH() {
         redirect: 'follow'
     };
     // 
-    const runtest = (e) => {
+    const runtest = () => {
+        if (resthash5.length === 0) return sethacked('Please enter the password you want to test'), setstyle('w');
+        //
+        sethacked('')
         setfailed('')
         setlodind(true)
         //
@@ -205,8 +208,10 @@ function PaswordH() {
                     <input type="text" onChange={handePWSD} placeholder='Password' />
                     <button onClick={runtest}>Test</button>
                 </div>
-                <p>{lodind && <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>} {failed} </p>
-                <p><span className={styleP}>{hacked}</span></p>
+                <div className='loder'>
+                    <p>{lodind && <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>} {failed} </p>
+                </div>
+                <p className='PC'><span className={styleP}>{hacked}</span></p>
                 {/* <a href="">{hacked && "Password Generator"}</a> */}
             </div>
         </>

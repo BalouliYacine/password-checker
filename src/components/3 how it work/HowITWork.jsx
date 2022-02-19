@@ -22,7 +22,7 @@ function HowITWork() {
 
     return (
         <>
-            <div className='HowITWork' >
+            <div className='HowITWork' id='HowITWork' >
                 <h2>HowITWork</h2>
                 <div className='condivforimg'>
 

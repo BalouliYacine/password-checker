@@ -1,3 +1,6 @@
+.PC {
+  text-align: center;
+}
 .red {
   color: red;
   font-weight: bold;
@@ -10,12 +13,12 @@ nav p {
   color: #eeeeee;
 }
 .password input {
-  width: 20rem;
+  width: 25rem;
   height: 3rem;
   border-radius: 20px 0px 0px 20px;
   font-size: 1.2rem;
   padding-left: 10px;
-  border: none;
+  border-color: #eeeeee;
   caret-color: #007379;
   background-color: #eeeeee;
   color: #013235;
@@ -53,6 +56,10 @@ nav p {
   display: flex;
   justify-content: center;
 }
+.passwordInput input:focus {
+  border: 2px solid #00adb5;
+  outline: none;
+}
 /*  */
 @media only screen and (max-width: 600px) {
   .password input {
@@ -70,6 +77,10 @@ nav p {
 }
 
 /*  */
+.loder {
+  display: flex;
+  justify-content: center;
+}
 .lds-grid {
   display: inline-block;
   margin: auto;

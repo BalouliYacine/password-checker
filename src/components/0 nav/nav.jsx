@@ -10,10 +10,10 @@ function Nav() {
         <nav ref={NavRef}>
             <div className="logo">DYD PASSWORD</div>
             <ul className='navlinks'>
-                <li><a href="">Home</a></li>
-                <li><a href="">How it work</a></li>
-                <li><a href="">Saftey</a></li>
-                <li><a href="">Contact</a></li>
+                {/* <li><a href="">Home</a></li> */}
+                <li><a href="#HowITWork">How it work (soon)</a></li>
+                <li><a href="">Password generator (soon)</a></li>
+                <li><a href="">Contact (soon)</a></li>
             </ul>
             <div className='burger'>burger</div>
         </nav>
