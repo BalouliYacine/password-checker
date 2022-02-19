@@ -8,7 +8,7 @@ function Nav() {
     });
     return (
         <nav ref={NavRef}>
-            <div className="logo">LOGO</div>
+            <div className="logo">DYD PASSWORD</div>
             <ul className='navlinks'>
                 <li><a href="">Home</a></li>
                 <li><a href="">How it work</a></li>
