@@ -1,8 +1,6 @@
 import { React, useState, useRef, useEffect } from 'react'
 import { gsap } from "gsap";
 
-
-
 function PaswordH() {
     // const INRef = useRef();
     useEffect(() => {
