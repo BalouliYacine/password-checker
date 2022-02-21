@@ -1,12 +1,7 @@
-import { React, useState, useRef, useEffect } from 'react'
-import { gsap } from "gsap";
+import { React, useState } from 'react'
+import { Link } from "react-router-dom";
 
 function PaswordH() {
-    // const INRef = useRef();
-    useEffect(() => {
-        gsap.fromTo('.password', { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 1, delay: 1 });
-    }, []);
-
     // SHA1 Function
     function SHA1(msg) {
         function rotate_left(n, s) {
@@ -210,7 +205,7 @@ function PaswordH() {
                     <p>{lodind && <div class="lds-grid"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>} {failed} </p>
                 </div>
                 <p className='PC'><span className={styleP}>{hacked}</span></p>
-                {/* <a href="">{hacked && "Password Generator"}</a> */}
+                <p className='PC'> <Link to="/Password-Generator">Try Our Password generator</Link></p>
             </div>
         </>
     )
