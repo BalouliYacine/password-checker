@@ -1,18 +1,17 @@
-import React from 'react';
+import React from "react";
 
 function Footer() {
-    return <>
-        <footer>
-            <h2>footer</h2>
-            <p>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit.
-                Officia, dolor!</p>
-        </footer>
+  return (
+    <>
+      <footer>
+        <h2>footer (soon)</h2>
+      </footer>
 
-        <div className="copyright">
-            <p>DYacineDev</p>
-        </div>
-    </>;
+      <div className="copyright">
+        <p>DYacineDev</p>
+      </div>
+    </>
+  );
 }
 
 export default Footer;

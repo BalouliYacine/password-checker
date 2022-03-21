@@ -6,11 +6,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .burger {
@@ -28,8 +28,8 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .navlinks li {
@@ -131,8 +131,8 @@ nav p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .passwordInput input:focus {
@@ -162,8 +162,8 @@ nav p {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .lds-grid {
@@ -182,75 +182,74 @@ nav p {
   border-radius: 50%;
   background: #fff;
   -webkit-animation: lds-grid 1.2s linear infinite;
-  animation: lds-grid 1.2s linear infinite;
+          animation: lds-grid 1.2s linear infinite;
 }
 
 .lds-grid div:nth-child(1) {
   top: 4px;
   left: 4px;
   -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+          animation-delay: 0s;
 }
 
 .lds-grid div:nth-child(2) {
   top: 4px;
   left: 16px;
   -webkit-animation-delay: -0.4s;
-  animation-delay: -0.4s;
+          animation-delay: -0.4s;
 }
 
 .lds-grid div:nth-child(3) {
   top: 4px;
   left: 28px;
   -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
+          animation-delay: -0.8s;
 }
 
 .lds-grid div:nth-child(4) {
   top: 16px;
   left: 4px;
   -webkit-animation-delay: -0.4s;
-  animation-delay: -0.4s;
+          animation-delay: -0.4s;
 }
 
 .lds-grid div:nth-child(5) {
   top: 16px;
   left: 16px;
   -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
+          animation-delay: -0.8s;
 }
 
 .lds-grid div:nth-child(6) {
   top: 16px;
   left: 28px;
   -webkit-animation-delay: -1.2s;
-  animation-delay: -1.2s;
+          animation-delay: -1.2s;
 }
 
 .lds-grid div:nth-child(7) {
   top: 28px;
   left: 4px;
   -webkit-animation-delay: -0.8s;
-  animation-delay: -0.8s;
+          animation-delay: -0.8s;
 }
 
 .lds-grid div:nth-child(8) {
   top: 28px;
   left: 16px;
   -webkit-animation-delay: -1.2s;
-  animation-delay: -1.2s;
+          animation-delay: -1.2s;
 }
 
 .lds-grid div:nth-child(9) {
   top: 28px;
   left: 28px;
   -webkit-animation-delay: -1.6s;
-  animation-delay: -1.6s;
+          animation-delay: -1.6s;
 }
 
 @-webkit-keyframes lds-grid {
-  0%,
-  100% {
+  0%, 100% {
     opacity: 1;
   }
   50% {
@@ -259,8 +258,7 @@ nav p {
 }
 
 @keyframes lds-grid {
-  0%,
-  100% {
+  0%, 100% {
     opacity: 1;
   }
   50% {
@@ -270,21 +268,21 @@ nav p {
 header {
   padding: 10%;
   color: #eeeeee;
-  min-height: 90vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding-top: 1%;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 header h1 {
@@ -309,18 +307,17 @@ header h1 span {
   color: #eeeeee;
   background-color: #393e46;
   padding: 5% 15%;
-  min-height: 100vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .HowITWork h2 {
@@ -402,8 +399,8 @@ header h1 span {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .Page .text {
   width: 60%;
@@ -442,8 +439,8 @@ footer {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 0.8rem;
   color: white;
   background-color: #00adb5;
@@ -457,7 +454,7 @@ html {
   margin: 0px;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Changa", sans-serif;
 }
 

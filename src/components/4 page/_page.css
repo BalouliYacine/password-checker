@@ -1,0 +1,36 @@
+.Page {
+  background-color: #222831;
+  padding: 5% 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.Page .text {
+  width: 60%;
+  margin-right: 50px;
+}
+.Page .text h2 {
+  color: #00adb5;
+  font-size: 3rem;
+}
+.Page .text p {
+  font-size: 1.5rem;
+  color: white;
+}
+.Page .img {
+  width: 30%;
+}
+.Page .img img {
+  width: 100%;
+}
+@media only screen and (max-width: 1000px) {
+  .Page .text {
+    width: 100%;
+  }
+  .Page .img {
+    display: none;
+  }
+}
