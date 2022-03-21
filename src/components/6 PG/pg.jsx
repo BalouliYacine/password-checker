@@ -28,19 +28,19 @@ function Pg() {
 
   return (
     <div className="pg">
-      <h1>Password Generator (soon)</h1>
+      <h1>Password Generator</h1>
+      <p> Generate secure, random passwords to stay safe online.</p>
       <br />
       <input
         className="range"
         type="range"
         onChange={Ran}
         min="8"
-        max="30"
+        max="50"
         defaultValue={8}
       />
       <span>{val} </span>
       <br />
-      {/* <input type="text" value={val} onChange={valch} /> */}
       <button onClick={Gen}> Generate </button>
       <br />
       <br />
@@ -48,7 +48,7 @@ function Pg() {
         Your <span>Password</span> Is :
       </p>
       <br />
-      <p> {gen} </p>
+      <p className="genP"> {gen} </p>
     </div>
   );
 }

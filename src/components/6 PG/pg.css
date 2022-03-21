@@ -11,13 +11,16 @@
   font-size: 2rem;
 }
 .pg button {
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 5px;
   border-radius: 10px;
 }
 .pg p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .pg .firstP span {
   color: #00adb5;
+}
+.pg .genP {
+  font-size: 2rem;
 }
