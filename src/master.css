@@ -1,5 +1,5 @@
 nav {
-  height: 10vh;
+  height: 12vh;
   padding: 2% 15%;
   color: #eeeeee;
   display: -webkit-box;
@@ -34,7 +34,7 @@ nav {
 
 .navlinks li {
   list-style: none;
-  padding: 0 20px;
+  padding: 20px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 5px;
@@ -50,15 +50,13 @@ nav {
 }
 
 @media only screen and (max-width: 650px) {
-  .burger {
-    display: block;
-  }
-
-  .navlinks {
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0.3;
+  nav {
+    min-height: 10vh;
+    padding: 2% 15%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 .PC {
@@ -411,6 +409,7 @@ header h1 span {
   font-size: 3rem;
 }
 .Page .text p {
+  font-size: 1.5rem;
   color: white;
 }
 .Page .img {

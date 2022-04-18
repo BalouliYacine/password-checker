@@ -3,9 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <>
-      <footer>
-        <h2>footer </h2>
-      </footer>
+      {/* <footer><h2>footer </h2></footer> */}
 
       <div className="copyright">
         <p>DYacineDev</p>

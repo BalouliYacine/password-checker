@@ -17,10 +17,6 @@ function Pg() {
     });
   };
 
-  // const valch = (e) => {
-  //   setval(e.target.value);
-  // };
-
   const Ran = (e) => {
     setval(e.target.value);
     Gen();

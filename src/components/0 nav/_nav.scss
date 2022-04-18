@@ -1,5 +1,5 @@
 nav {
-  height: 10vh;
+  height: 12vh;
   padding: 2% 15%;
   color: #eeeeee;
   display: flex;
@@ -20,7 +20,7 @@ nav {
 }
 .navlinks li {
   list-style: none;
-  padding: 0 20px;
+  padding: 20px;
   transition: all 0.3s;
   border-radius: 5px;
 }
@@ -31,14 +31,11 @@ nav {
 .navlinks li:hover {
   background-color: #007379;
 }
+
 @media only screen and (max-width: 650px) {
-  .burger {
-    display: block;
-  }
-  .navlinks {
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 0.3;
+  nav {
+    min-height: 10vh;
+    padding: 2% 15%;
+    flex-direction: column;
   }
 }

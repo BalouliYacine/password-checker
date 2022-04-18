@@ -20,11 +20,11 @@ function Nav() {
           <li>
             <Link to="/Password-Generator">Password generator</Link>
           </li>
-          <li>
+          {/*  <li>
             <Link to="/">Contact (soon)</Link>
-          </li>
+          </li> */}
         </ul>
-        <div className="burger">burger</div> {/* For Responsive*/}
+        {/* <div className="burger">burger</div> For Responsive */}
       </nav>
 
       <Routes>
